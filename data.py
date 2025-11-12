@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('letterboxd-bigimdbfan30-2025-11-05-15-54-utc/fakeratings.csv')
 ratingcounts = df['Rating'].value_counts().sort_index()
 
-print(f'Diary Data Oerview:\n------------------------')
+print(f'Diary Data Overview:\n------------------------')
 print(df.head())
 print('\nSummary Statistics:')
 print(df.describe())
